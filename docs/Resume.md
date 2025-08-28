@@ -1,6 +1,6 @@
 # Reddy Sai Reddy Duggireddy  
 
-![Headshot](IMG_1890.jpeg)  
+<img src="IMG_1890.jpeg" alt="Headshot" width="250"/> 
 
 - **Email:** kj42777@umbc.edu  
 - **LinkedIn:** [linkedin.com/in/reddy-sai-reddy-duggireddy](https://www.linkedin.com/in/reddy-sai-reddy-duggireddy/)  

@@ -38,23 +38,17 @@
 - Developed SQL packages, Python scripts, and UNIX shell scripts for large-scale data migration and batch processing.  
 - Improved reporting and data quality through advanced profiling and schema management.  
 
-**Cognizant — Data Analyst (Feb 2022 – Dec 2022)**  
-- Created Tableau dashboards to monitor KPIs using AWS (S3, RDS, Redshift) and Excel data.  
-- Designed and optimized SQL queries (CTEs, subqueries, window functions) for user activity analysis.  
-- Automated data cleaning and validation with Pandas and Apache Airflow.  
-- Built predictive models (Random Forest, XGBoost, SVM) for churn prediction.  
-
 ---
 
 ## Certifications  
 
-- Python for Data Science — IBM CognitiveClass  
-- Introduction to TensorFlow for AI, ML, and Deep Learning — Coursera  
-
+- Applied Data Science with Python — Coursera (University of Michigan)    
+- Python for Data Science — IBM CognitiveClass
+  
 ---
 
 ## Projects  
 
 - **Employee Performance Analysis** — Built classification model (SVM) with 95% accuracy.  
-- **Customer Transaction Prediction** — Applied ML models with feature engineering achieving 81.4% accuracy.  
+- - **Python Project Repository** — [github.com/ReddySaiReddyDuggireddy/python_Project](https://github.com/ReddySaiReddyDuggireddy/python_Project)   
 

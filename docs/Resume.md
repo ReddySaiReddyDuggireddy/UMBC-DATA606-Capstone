@@ -32,7 +32,7 @@
 
 ## Experiences  
 
-**Cognizant — Data Engineer (Jan 2023 – Dec 2023)**  
+**Cognizant — Data Engineer**  
 - Built clinical data pipelines on Google Cloud (BigQuery, Dataflow, Pub/Sub, Healthcare API).  
 - Designed ETL workflows for healthcare datasets (FHIR, HL7, JSON, XML).  
 - Developed SQL packages, Python scripts, and UNIX shell scripts for large-scale data migration and batch processing.  
@@ -50,5 +50,5 @@
 ## Projects  
 
 - **Employee Performance Analysis** — Built classification model (SVM) with 95% accuracy.  
-- - **Python Project Repository** — [github.com/ReddySaiReddyDuggireddy/python_Project](https://github.com/ReddySaiReddyDuggireddy/python_Project)   
+- **Python Project Repository** — [github.com/ReddySaiReddyDuggireddy/python_Project](https://github.com/ReddySaiReddyDuggireddy/python_Project)   
 

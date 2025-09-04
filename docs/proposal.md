@@ -3,9 +3,8 @@
 **Prepared for:** UMBC Data Science Master Degree Capstone  
 **Professor:** Dr. Chaojie (Jay) Wang  
 **Author:** Reddy Sai Reddy Duggireddy  
-**GitHub:** [Add your GitHub link here]  
-**LinkedIn:** [Add your LinkedIn link here]  
-
+**GitHub:** https://github.com/ReddySaiReddyDuggireddy  
+**LinkedIn:** https://www.linkedin.com/in/reddy-sai-reddy-duggireddy/
 ---
 
 ## 1. Background  

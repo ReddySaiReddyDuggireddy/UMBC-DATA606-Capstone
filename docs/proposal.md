@@ -40,7 +40,7 @@ Cost of living is a **critical factor** influencing population migration, job se
 
 ## 3. Dataset  
 
-- **Source:** U.S. Cost of Living Dataset (Kaggle or Public Data Repositories)  
+- **Source:** U.S. Cost of Living Dataset (https://www.kaggle.com/datasets/asaniczka/us-cost-of-living-dataset-3171-counties)  
 - **Data Size:** ~31,430 rows × 15 columns  
 - **Geographic Coverage:** All 50 states + District of Columbia  
 - **Family Types:** Single parent (1p0c) to large families (2p3c)  

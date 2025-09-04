@@ -1,10 +1,10 @@
 # Cost of Living Analysis & Prediction  
 
-**Prepared for:** UMBC Data Science Master Degree Capstone  
-**Professor:** Dr. Chaojie (Jay) Wang  
-**Author:** Reddy Sai Reddy Duggireddy  
-**GitHub:** https://github.com/ReddySaiReddyDuggireddy  
-**LinkedIn:** https://www.linkedin.com/in/reddy-sai-reddy-duggireddy/
+*Prepared for:** UMBC Data Science Master Degree Capstone  
+*Professor:** Dr. Chaojie (Jay) Wang  
+*Author:** Reddy Sai Reddy Duggireddy  
+*GitHub:** https://github.com/ReddySaiReddyDuggireddy  
+*LinkedIn:** https://www.linkedin.com/in/reddy-sai-reddy-duggireddy/
 ---
 
 ## 1. Background  

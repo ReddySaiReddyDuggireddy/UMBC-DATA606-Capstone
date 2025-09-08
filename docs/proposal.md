@@ -10,9 +10,9 @@ YouTube: *[Add link]*
 
 ## 1. Background  
 
-Loan defaults create major challenges for financial institutions, leading to losses, slower loan processing, and reduced credit availability for borrowers. This project focuses on predicting loan default risk so lenders can make **faster, fairer, and more accurate decisions** while minimizing financial losses.  
+Loan default poses a significant financial risk to banks, credit unions, and lending institutions worldwide. When borrowers fail to repay loans, it affects not only financial institutions but also economic stability and credit accessibility for future borrowers.  
 
-By using **machine learning models**, large volumes of borrower data can be analyzed efficiently to find hidden patterns and predict default risk with high accuracy. This supports **automated and data-driven lending decisions**, helping banks manage risk while improving operational efficiency and financial inclusion.  
+This project aims to build a **data-driven solution** to predict the likelihood of loan default before loan approval using borrower demographics, financial indicators, and loan-related details. The ultimate goal is to help lenders **minimize risk**, **optimize credit policies**, and **make fair, data-informed lending decisions**.  
 
 ---
 

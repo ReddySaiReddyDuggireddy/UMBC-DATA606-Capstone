@@ -32,7 +32,7 @@ Accurate loan default prediction enables banks and financial institutions to **r
 
 - **Source:** Loan Default Dataset (Kaggle/Public Lending Datasets)  
 - **Size:** ~20 MB (255,347 rows × 18 columns)  
-- **Time Period:** Latest financial data (not time-bound)  
+- **Time Period:** Latest financial data  
 - **Each Row Represents:** A single loan application  
 
 ---
@@ -70,55 +70,3 @@ Accurate loan default prediction enables banks and financial institutions to **r
 
 ---
 
-## 3. Exploratory Data Analysis (EDA)  
-
-We will perform:  
-- **Distribution Analysis:** Default vs Repaid proportions  
-- **Correlation Analysis:** Between Income, CreditScore, LoanAmount, and Default  
-- **Visualization:** Box plots, heatmaps, bar charts for categorical features  
-- **Data Quality Checks:** Missing values, duplicates, data consistency  
-
----
-
-## 4. Model Training  
-
-- **Models to Use:**  
-  - Logistic Regression → Simple baseline model for interpretability  
-  - Random Forest Classifier → Handles non-linear patterns & feature importance  
-  - XGBoost Classifier → High-performance boosted trees for accuracy  
-
-- **Train-Test Split:** 80% Training, 20% Testing  
-- **Tools & Libraries:** scikit-learn, XGBoost, pandas, NumPy, Matplotlib, Seaborn, Plotly  
-- **Metrics:** Accuracy, Precision, Recall, F1-Score, ROC-AUC  
-
----
-
-## 5. Application of Trained Models  
-
-- Build a **Streamlit Web App**:  
-  - User inputs borrower details  
-  - Model predicts probability of loan default  
-  - Helps loan officers make informed decisions  
-
----
-
-## 6. Conclusion  
-
-- **Expected Outcomes:**  
-  - Identify key factors contributing to loan defaults  
-  - Provide lenders with a **risk prediction tool** for better decision-making  
-- **Limitations:**  
-  - External macroeconomic factors not included  
-- **Future Work:**  
-  - Integrate real-time economic indicators & credit bureau data for improved accuracy  
-
----
-
-## 7. References  
-
-- Kaggle Loan Default Dataset  
-- Scikit-learn Documentation  
-- XGBoost Documentation  
-- Streamlit Documentation  
-
----

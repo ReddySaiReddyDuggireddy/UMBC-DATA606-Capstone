@@ -1,10 +1,8 @@
-# Loan Default Prediction Using Machine Learning
+# Loan Default Prediction 
 Prepared for UMBC Data Science Master Degree Capstone by **Dr. Chaojie (Jay) Wang**  
 Author: **Reddy Sai Reddy Duggireddy**  
-GitHub: *[Add link once repo is created]*  
-LinkedIn: *[Add link]*  
-PowerPoint: *[Add link]*  
-YouTube: *[Add link]*  
+GitHub: *https://github.com/ReddySaiReddyDuggireddy*  
+LinkedIn: *https://www.linkedin.com/in/reddy-sai-reddy-duggireddy/*  
 
 ---
 

@@ -28,7 +28,7 @@ Accurate loan default prediction enables banks and financial institutions to **r
 
 ## 2. Data  
 
-- **Source:** Loan Default Dataset (Kaggle/Public Lending Datasets)  
+- **Source:** Loan Default Dataset (https://www.kaggle.com/datasets/nikhil1e9/loan-default)  
 - **Size:** ~20 MB (255,347 rows × 18 columns)  
 - **Time Period:** Latest financial data  
 - **Each Row Represents:** A single loan application  

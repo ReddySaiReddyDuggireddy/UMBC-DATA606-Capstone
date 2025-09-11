@@ -1,4 +1,4 @@
-# Loan Default Prediction 
+# Loan Default Risk Prediction 
 Prepared for UMBC Data Science Master Degree Capstone by **Dr. Chaojie (Jay) Wang**  
 Author: **Reddy Sai Reddy Duggireddy**  
 GitHub: *https://github.com/ReddySaiReddyDuggireddy*  

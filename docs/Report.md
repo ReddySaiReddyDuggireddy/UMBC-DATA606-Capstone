@@ -133,16 +133,15 @@ Three machine learning models were used to train and test the **Loan Default Pre
 
 ### **Training Process**
 
-* The dataset was divided into **training (80%)** and **testing (20%)** sets using the `train_test_split()` method.  
-* No resampling techniques (like SMOTE) were applied — instead, the focus was on **feature engineering** and **model optimization** to handle mild class imbalance.  
+* The dataset was divided into **training (80%)** and **testing (20%)** sets using the `train_test_split()` method.   
 * Numerical features were **scaled** and categorical features were **encoded** using **Pipelines** to streamline preprocessing.  
 * **Hyperparameter tuning** was performed using `GridSearchCV` to find the best-performing parameters for each model.  
-* Libraries used included `scikit-learn`, `xgboost`, and `matplotlib` for model development and evaluation.  
+* Libraries used included `scikit-learn`, `xgboost` for model development and evaluation.  
 * The development and testing were carried out in **Jupyter Notebook** on a **macOS environment**.
 
 ### **Model Evaluation**
 
-* Models were evaluated using key metrics such as **Accuracy**, **Precision**, **Recall**, and **F1-score**.  
+* Models were evaluated using key metrics such as  **Precision**, **Recall**, and **F1-score**.  
 * **Confusion matrices** and **classification reports** were generated to assess prediction performance.  
 * Feature importance scores helped identify which engineered features most strongly influenced loan default prediction.  
 * Among the models tested, **XGBoost** provided the best trade-off between recall and precision, followed by **Random Forest** and **Decision Tree**.
@@ -183,9 +182,7 @@ By applying **feature engineering**, **scaling**, and **model tuning**, predicti
 * Results depend on dataset quality and may vary for different institutions or markets.
 
 ### **Future Work:**
-* Incorporate **additional data sources** (e.g., credit utilization, payment history) for improved accuracy.  
-* Experiment with **deep learning models** for enhanced non-linear pattern recognition.  
-* Integrate **Explainable AI (SHAP or LIME)** for transparent decision-making.  
+* Incorporate **additional data sources** (e.g., credit utilization, payment history) for improved accuracy.   
 * Deploy the Streamlit app with continuous model updates using live financial data.  
 
 

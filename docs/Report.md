@@ -123,4 +123,69 @@ These statistics highlight that borrowers generally have mid-level incomes and m
 - **Interest Rate vs Loan Default:** Defaulters usually face higher interest rates, showing that borrowing costs impact repayment.  
 - **Debt-to-Income Ratio vs Loan Default:** Borrowers with higher DTI ratios are more likely to
 
+## **5. Model Training**
+
+Three machine learning models were used to train and test the **Loan Default Prediction** dataset:
+
+* **Random Forest Classifier:** An ensemble learning model that builds multiple decision trees and averages their results to improve accuracy and reduce overfitting.  
+* **Decision Tree Classifier:** A simple and interpretable model that splits data based on key variables to predict default or repayment outcomes.  
+* **XGBoost Classifier:** A gradient boosting algorithm known for its efficiency, regularization, and ability to handle complex feature relationships.
+
+### **Training Process**
+
+* The dataset was divided into **training (80%)** and **testing (20%)** sets using the `train_test_split()` method.  
+* No resampling techniques (like SMOTE) were applied — instead, the focus was on **feature engineering** and **model optimization** to handle mild class imbalance.  
+* Numerical features were **scaled** and categorical features were **encoded** using **Pipelines** to streamline preprocessing.  
+* **Hyperparameter tuning** was performed using `GridSearchCV` to find the best-performing parameters for each model.  
+* Libraries used included `scikit-learn`, `xgboost`, and `matplotlib` for model development and evaluation.  
+* The development and testing were carried out in **Jupyter Notebook** on a **macOS environment**.
+
+### **Model Evaluation**
+
+* Models were evaluated using key metrics such as **Accuracy**, **Precision**, **Recall**, and **F1-score**.  
+* **Confusion matrices** and **classification reports** were generated to assess prediction performance.  
+* Feature importance scores helped identify which engineered features most strongly influenced loan default prediction.  
+* Among the models tested, **XGBoost** provided the best trade-off between recall and precision, followed by **Random Forest** and **Decision Tree**.
+
+---
+
+## **6. Application of the Trained Model**
+
+A **Streamlit web application** was developed to make the trained model interactive and user-friendly.  
+The app allows users to input loan-related details — including **demographic, financial, and engineered features** — and instantly receive predictions about whether a loan is likely to be **repaid or defaulted**.
+
+### **Key Features:**
+* Real-time loan default prediction using the trained XGBoost model.  
+* Clean form-based interface for entering applicant details.  
+* Automatic calculation of engineered financial metrics such as:  
+  - `Loan_to_Income_Ratio`  
+  - `Debt_Service_Ratio`  
+  - `FinancialStress`  
+  - `EmploymentStability`  
+  - `CombinedIncome`  
+* Instant output message displaying the loan prediction result (Defaulted or Repaid).  
+
+---
+
+## **7. Conclusion**
+
+This project demonstrates the use of **machine learning algorithms** to predict loan default risk based on borrower and financial attributes.  
+By applying **feature engineering**, **scaling**, and **model tuning**, predictive accuracy and interpretability were improved without requiring data resampling methods.
+
+### **Key Insights:**
+* The **XGBoost model** outperformed other models in terms of precision and recall balance.  
+* **Feature engineering** (e.g., Loan-to-Income Ratio, Debt Service Ratio, Credit Exposure Ratio) played a key role in enhancing model understanding.  
+* Ensemble models like **Random Forest** proved effective at reducing overfitting and capturing complex relationships.  
+
+### **Limitations:**
+* Class imbalance slightly affected recall for minority cases (loan defaults).  
+* Some engineered features relied on assumptions (e.g., co-signer income impact).  
+* Results depend on dataset quality and may vary for different institutions or markets.
+
+### **Future Work:**
+* Incorporate **additional data sources** (e.g., credit utilization, payment history) for improved accuracy.  
+* Experiment with **deep learning models** for enhanced non-linear pattern recognition.  
+* Integrate **Explainable AI (SHAP or LIME)** for transparent decision-making.  
+* Deploy the Streamlit app with continuous model updates using live financial data.  
+
 

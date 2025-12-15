@@ -5,7 +5,7 @@
 **GitHub:** *https://github.com/ReddySaiReddyDuggireddy*  
 **LinkedIn:** *https://www.linkedin.com/in/reddy-sai-reddy-duggireddy/*  
 **PowerPoint Presentation:** *https://github.com/ReddySaiReddyDuggireddy/UMBC-DATA606-Capstone/blob/main/docs/Data606_CapstonePresentations1.pptx*  
-**YouTube Video:** *https://youtu.be/TucyWCtsC4Y*
+**YouTube Video:** *https://youtu.be/qP5sxjzY5sI*
 
 ---
 

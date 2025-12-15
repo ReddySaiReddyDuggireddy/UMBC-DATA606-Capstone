@@ -169,23 +169,24 @@ The app allows users to input loan-related details — including **demographic, 
 
 ---
 
-## **7. Conclusion**
+## Conclusion
 
-This project demonstrates the use of **machine learning algorithms** to predict loan default risk based on borrower and financial attributes.  
-By applying **feature engineering**, **scaling**, and **model tuning**, predictive accuracy and interpretability were improved without requiring data resampling methods.
+This project demonstrates how machine learning can be used to predict **loan default risk**, a critical problem for financial institutions. By analyzing borrower demographics, financial attributes, and loan characteristics, the project shows how data-driven models can support better lending decisions, reduce financial risk, and improve operational efficiency.
 
-### **Key Insights:**
-* The **XGBoost model** outperformed other models in terms of precision and recall balance.  
-* **Feature engineering** (e.g., Loan-to-Income Ratio, Debt Service Ratio, Credit Exposure Ratio) played a key role in enhancing model understanding.  
-* Ensemble models like **Random Forest** proved effective at reducing overfitting and capturing complex relationships.  
+Feature engineering played an important role in improving model understanding. Derived variables such as **Loan-to-Income Ratio**, **Employment Stability**, **Financial Stress**, and **Loan Burden** helped capture borrower risk more effectively than raw features alone. Multiple machine learning models were trained and evaluated to understand their strengths and limitations in predicting loan defaults.
 
-### **Limitations:**
-* Class imbalance slightly affected recall for minority cases (loan defaults).  
-* Some engineered features relied on assumptions (e.g., co-signer income impact).  
-* Results depend on dataset quality and may vary for different institutions or markets.
+### Limitations
+- **Class Imbalance:** Default cases were significantly fewer than non-default cases, which affected recall for high-risk borrowers.
+- **Synthetic Dataset:** The dataset may not fully reflect real-world borrower behavior.
+- **Model Interpretability:** Ensemble models and engineered features can reduce transparency for decision-makers.
 
-### **Future Work:**
-* Incorporate **additional data sources** (e.g., credit utilization, payment history) for improved accuracy.   
-* Deploy the Streamlit app with continuous model updates using live financial data.  
+### Future Work
+- Apply advanced imbalance-handling or cost-sensitive learning techniques.
+- Perform deeper hyperparameter tuning and feature selection.
+- Incorporate real-world financial and economic data.
+- Explore deep learning and explainable AI methods.
+- Deploy a real-time prediction system with continuous model updates.
+
+Overall, this project provides an end-to-end framework for loan default prediction and establishes a strong foundation for future improvements and real-world deployment.
 
 
